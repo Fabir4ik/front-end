@@ -1,0 +1,1046 @@
+/* body {height: 2000px;} */
+
+.main {
+  background-image: url("https://www.tapetus.pl/obrazki/n/249292_gory-jezioro-las-skaly.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: #333;
+}
+
+.main-2 {
+  background-image: url("https://onlinezayavkanacredit.ru/wp-content/uploads/2020/12/programmist.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: #333;
+}
+
+.big-text {font-size: 50px;}
+
+.button-center {margin: 30px 35%;}
+
+.margin-50 {margin-left: 44%}
+
+.bg-red {background-color: #d82d3c!important;}
+
+.cr {color: #8a2525;}
+
+/*
+body {
+  color: blue;
+}
+
+p {color: green}
+
+.heading {color: red}
+
+#block-text {color: yellow}
+
+h3.heading {color: black}
+
+div#block-text .heading {
+  color: red
+}
+
+p, .heading, #block-text-2 {color: red}
+
+[target="_blank"] {font-weight: bold}
+
+ul > li {color: red}
+
+p.txt em + b {color:red}
+.bold {font-weight: bold}
+
+p.txt.bold {color: blue}
+
+body :first-child::first-line {
+  color: yellow
+}
+
+body :first-child::first-letter {
+  color: red
+}
+
+.after-before::after {
+  content: ">>";
+  color: blue
+}
+
+#list li:nth-child(3n) {color: red}
+
+#block :first-child {
+  color: red
+}
+
+.block p {color: red}
+
+.block p:only-of-type {color: blue}
+
+a:link {text-decoration: none;}
+a:visited {color: red}
+a:active {text-decoration: line-through;}
+a:hover {color: #333}
+
+.block-txt span {color: blue}
+.block-txt:hover span {color: red}
+.block-txt:active span {color: green}
+
+p:not(.txt):not(.txt-block) {color: white}
+p:not(.txt):not(.txt-block):hover {color: red}
+
+input[type]:not([type="text"]):not(:focus) {background-color: red}
+input:focus {background-color: blue}
+
+input[type]:not([type="text"]):enabled {background-color: green}
+input:disabled {background-color: black}
+
+p:not(:empty) {
+  background-color: black;
+  height: 10px;
+}
+
+p {
+  color: #0072ff;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 20px;
+  font-family: "Arial", sans-serif;
+  cursor: crosshair;
+  background: rgba(255, 255, 0, 0.5);
+  letter-spacing: 1px;
+  line-height: 125%;
+  text-align: justify;
+  text-decoration: underline;
+  text-decoration-color: #bbb;
+   text-transform: capitalize;
+   text-indent: 30px;
+   word-spacing: 1px;
+   word-wrap: break-word;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+#block {
+  width: 70%;
+  height: 100px;
+  background-color: #333;
+  border: 10px solid #ccc;
+  border-bottom: 10px solid #ccc;
+  border-top-color: #ccc;
+  border-radius: 20px 20px 20px 140px;
+  opacity: .99;
+  margin: 20px 50px 50px 0px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  padding-bottom: 100px;
+}
+.block {
+  overflow: auto;
+  max-width: 200px;
+  display: block;
+}
+
+body{height: 2000px;}
+
+#image-full-page {
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+  background-image: url("../img/photo1.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+}
+
+textarea {
+  width: 200px;
+  max-width: 400px;
+  max-height: 200px;
+  min-width: 150px;
+  min-height: 50px;
+  opacity: 0;
+}
+
+.block {
+  width: 200px;
+  height: 200px;
+  background-color: #333;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+#first {float: left;}
+#second {float: right;}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.block {
+  width: 200px;
+  height: 200px;
+  background-color: #333;
+  margin-bottom: 20px;
+}
+
+#first {
+  width: 400px;
+  background-color: #333;
+  color: #fff;
+  margin: 20px;
+  padding: 20px;
+  position: relative;
+}
+
+#first img {
+  width: 200px;
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+
+#first p {clear: none;}
+
+body {height: 3000px;}
+
+#second {
+  border: 10px solid blue;
+  position: sticky;
+  top: 30px;
+  left: 100px;
+  right: auto;
+  bottom: auto;
+}
+
+body {background-color: #0072ff;}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  background: #fcfc33;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border-right: 1px solid silver;
+  cursor: pointer;
+}
+
+ul li:hover {
+  background-color: #333;
+  color: #fff;
+  -webkit-box-shadow: 9px 9px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow:    9px 9px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow:         9px 9px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+.block {
+  width: 200px;
+  height: 200px;
+}
+
+#first {
+  background-color: silver;
+  position: relative;
+  z-index: 1;
+}
+
+#second {
+  background-color: red;
+  position: relative;
+  top: -100px;
+  left: 60px;
+  z-index: 0;
+}
+
+#third {
+  background-color: blue;
+  position: relative;
+  top: -250px;
+  z-index: 2;
+}
+
+p {color: red!important;}
+p {color: blue;}
+
+p > span {
+  color: initial;
+}
+
+.block {
+  background: #eee;
+  padding: 10px;
+  margin: 100px;
+}
+
+.block > p {
+  background: #ccc;
+  padding: inherit;
+  margin: unset;
+}
+
+p, .block > p {all: initial}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("../fonts/MontserratAlternates-Bold.ttf");
+}
+
+p.txt {
+  font-family: Montserrat
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+p.txt {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+==============================================================================
+SoundBurner
+==============================================================================
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {text-decoration: none;}
+
+body {
+  font-family: 'M PLUS 1p', sans-serif;
+  font-size: 16px;
+  background: #fff;
+  color: #000;
+}
+
+header {
+  width: 100%;
+  background: #F8F8F8;
+  box-shadow: 2px 4px 6px rgba(194, 192, 192, 0.25);
+  padding: 10px 0;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  float: left;
+}
+
+header .all-header {
+  width: 60%;
+  margin: 0 20%;
+}
+
+header .all-header .lang {
+  text-align: right;
+  width: 100%;
+}
+
+header .all-header .lang a:hover {
+  font-size: 14;
+  color: #C4C4C4;
+  font-weight: 800;
+  color: #000;
+  border-bottom: 2px solid #000;
+  margin-left: 5px;
+}
+
+header .all-header .lang a.active {
+  font-size: 14;
+  color: #C4C4C4;
+  font-weight: 800;
+  color: #000;
+  border-bottom: 2px solid #000;
+  margin-left: 5px;
+}
+
+header .all-header .header-main {
+  width: 100%;
+  margin-top: 20px;
+}
+
+header .all-header .header-main img {
+  height: 50px;
+  float: left;
+}
+
+#search {
+  float: left;
+  margin-left: 10px;
+  border: 0px;
+  background: #ECECEC;
+  width: 360px;
+  height: 44px;
+  font-weight: 300;
+  font-size: 12px;
+  text-indent: 20px;
+  outline: none;
+  margin-top: 5px;
+}
+
+header .all-header .header-main a {
+  float: left;
+  color: #000;
+  font-weight: 800;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+header .all-header .header-main a:hover {color: #ccc;}
+
+header .all-header .header-main .btn {
+  cursor: pointer;
+  float: right;
+  margin-left: 20px;
+  width: 86px;
+  height: 40px;
+  font-weight: 800;
+  border: 2px solid #000;
+  text-align: center;
+  line-height: 40px;
+}
+
+header .all-header .header-main .btn.reg {width: 140px;}
+
+header .all-header .header-main .btn.reg, header .all-header .header-main .btn.auth:hover {
+  background: #000;
+  color: #fff;
+}
+
+header .all-header .header-main .btn.reg:hover {
+  background: #fff;
+  color: #000;
+}
+
+
+
+
+
+
+
+Основная часть сайта
+
+main {
+  float: left;
+  width: 100%;
+}
+
+main .section {
+  float: left;
+  width: 60%;
+  margin: 50px 20%;
+}
+
+main .section h3 {font-size: 24;}
+
+main .section h3 span {
+  height: 2px;
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: 40px;
+  margin-bottom: 7px;
+  width: 30px;
+  background: #000;
+}
+
+main .section .img-block {
+  width: 25%;
+  margin: 20px 0;
+  float: left;
+  position: relative;
+  cursor: pointer;
+}
+
+main .section .img-block:not(:last-of-type) {
+  margin-right: 12.5%
+}
+
+main .section .img-block img {width: 100%;}
+
+main .section .img-block h4 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+main .section .img-block p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+main .section .img-block .button-play {
+  background: #000;
+  color: yellow;
+  padding: 25px;
+  position: absolute;
+  right: -30px;
+  bottom: 80px;
+  display: none;
+}
+
+main .section .img-block:hover .button-play {display: block;}
+
+footer {
+  width: 100%;
+  float: left;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 60px 0;
+  font-weight: 300;
+}
+
+================================================================================
+================================================================================
+================================================================================
+
+Образец сайта
+================================================================================
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;800&display=swap');
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-size: 16;
+  height: 1000px;
+  background: #d9d7f8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  background: #333;
+  float: left;
+  border-bottom: 5px solid gray;
+  position: fixed;
+  z-index: 100;
+}
+
+header div {
+  float: left;
+}
+
+.header .webdesign {
+  margin-left: 150px;
+  margin-top: 30px;
+  font-weight: 700;
+  color: #fc7f6b;
+  margin-right: 250px;
+}
+
+.sections {
+  float: left;
+  color: white;
+  text-decoration: none;
+  margin: 30px 20px;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 10px solid #333;
+}
+
+.sections:hover {
+  -webkit-box-shadow: 9px 9px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow:    9px 9px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow:         9px 9px 17px 0px rgba(0, 0, 0, 0.75);
+  color: yellow;
+}
+
+#search {
+  font-weight: 700;
+  float: right;
+  margin-top: 35px;
+  margin-left: 150px;
+  border: 12px solid white;
+  border-radius: 5px;
+}
+
+================================================================================
+ Основа сайта
+
+.block1 {
+  height: 350px;
+  width: 700px;
+  border: 2px solid silver;
+  background: #fdffe1;
+  color: gray;
+  padding: 50px;
+  position: relative;
+  top: 150px;
+  left: 150px;
+}
+
+.block1 img {
+  height: 200px;
+  position: relative;
+  left: 170px;
+  padding: 10px;
+}
+
+.block1 h1 {
+  font-weight: 500;
+  color: #fc7f6b;
+}
+
+.block2 {
+  height: 120px;
+  width: 300px;
+  border: 2px solid silver;
+  background: #fdffe1;
+  color: gray;
+  padding: 15px;
+  position: absolute;
+  top: 150px;
+  left: 1050px;
+}
+
+.block2 h2 {
+  font-weight: 500;
+  color: #fc7f6b;
+}
+
+.block2 b {
+  background: yellow;
+  color: black;
+}
+
+footer {
+  width: 100%;
+  float: left;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+  font-weight: 300;
+  position: absolute;
+  bottom: -500px;
+}
+
+.links {
+  float: left;
+  color: white;
+  text-decoration: none;
+  margin: 30px 20px;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+#div1 {margin-left: 450px;}
+
+.links:hover {
+  -webkit-box-shadow: 9px 9px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow:    9px 9px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow:         9px 9px 17px 0px rgba(0, 0, 0, 0.75);
+  color: yellow;
+}
+
+#youtube {
+  background: red;
+  border: 10px solid red;
+}
+
+#twitter {
+  background: #1faee9;
+  border: 10px solid #1faee9;
+}
+
+#facebook {
+  background: #3b5998;
+  border: 10px solid #3b5998;
+}
+
+#instagram {
+  background: #231F20;
+  padding: 10px;
+  background: linear-gradient(#405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+}
+
+#p {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+#up {
+  float: left;
+  color: black;
+  text-decoration: none;
+  background: yellow;
+  margin: 30px 20px;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 10px solid yellow;
+  position: fixed;
+  right: 20px;
+  top: 150px;
+}
+
+#up:hover {
+  -webkit-box-shadow: 9px 9px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow:    9px 9px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow:         9px 9px 17px 0px rgba(0, 0, 0, 0.75);
+  color: green;
+}
+============================================================
+
+#block {
+  width: 100px;
+  height: 100px;
+  background: silver;
+  animation-name: block;
+  animation-duration: 3s;
+  animation-delay: .2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transition-delay:
+}
+
+@keyframes coolAnimation {
+  0% {border-radius: 0px;}
+  10% {border-radius: 10px;}
+  40% {border-radius: 20px;}
+  63% {background: yellow;}
+  70% {border-radius: 40px;}
+  100% {border-radius: 30px;}
+}
+
+@keyframes block {
+  from {background: silver; position: absolute;}
+  to {background: red; position: absolute; top: 100px; left: 100px;}
+}
+
+==================================================================
+============
+FLEXBOX
+=============
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container > div {
+  padding: 10px;
+  border: 1px solid silver;
+  margin-bottom: 10px;
+  flex-basis: 20%;
+}
+
+.box-1 {
+  align-self: flex-end;
+}
+
+.box-2 {
+  align-self: stretch;
+}
+
+.box-3 {
+  align-self:
+}
+
+================================================================================
+====================NEW=====SoundBurner==NEW====================================
+================================================================================
+
+
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+1p:300,800&display=swap&subset=cyrillic-ext');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  transition: all .6s ease;
+  -o-transition: all .6s ease;
+  -moz-transition: all .6s ease;
+  -webkit-transition: all .6s ease;
+}
+
+body {
+  font-family: 'M PLUS 1p', sans-serif;
+  font-size: 16px;
+  background: white;
+  color: #000;
+}
+
+header {
+  width: 100%;
+  background: #F8F8F8;
+  box-shadow: 2px 4px 6px rgba(194, 192, 192, 0.25);
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 1571px) {
+  header .all-header {
+    width: 60%;
+    margin: 0 20%;
+  }
+}
+
+@media (max-width: 1570px) and (min-width: 1111px) {
+  header .all-header {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 1110px) and (min-width: 921px) {
+  header .all-header {
+    width: 95%;
+    margin-left: 2%;
+  }
+}
+
+@media (max-width: 920px) {
+  header .all-header {width: 90%; margin-left: 5%}
+  header .all-header .header-main {flex-direction: column;}
+  header .all-header .header-main div,
+  header .all-header .header-main a,
+  header .all-header .header-main input {margin-top: 20px;}
+}
+
+header .all-header .lang {
+  text-align: right;
+  width: 100%;
+}
+
+header .all-header .lang a {
+  font-size: 14px;
+  color: #C4C4C4;
+  font-weight: 800;
+}
+
+header .all-header .lang a.active,
+header .all-header .lang a:hover {
+  color: #000;
+  border-bottom: 2px solid #000;
+  margin-left: 5px;
+}
+
+header .all-header .header-main {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .all-header .header-main img {
+  height: 50px;
+}
+
+#search {
+  border: 0;
+  background: #ECECEC;
+  width: 360px;
+  height: 44px;
+  font-weight: 300;
+  font-size: 12px;
+  text-indent: 20px;
+  outline: none;
+}
+
+
+header .all-header .header-main a {
+  color: #000;
+  font-weight: 800;
+}
+
+header .all-header .header-main a:hover {color: #ccc}
+
+header .all-header .header-main .btn {
+  cursor: pointer;
+  width: 86px;
+  height: 40px;
+  font-weight: 800;
+  border: 2px solid #000;
+  text-align: center;
+  line-height: 40px;
+}
+
+header .all-header .header-main .btn.reg {width: 140px}
+
+header .all-header .header-main .btn.reg,
+header .all-header .header-main .btn.auth:hover {
+  background: #000;
+  color: #fff;
+}
+
+header .all-header .header-main .btn.reg:hover {
+  background: #fff;
+  color: #000;
+}
+
+Основная часть
+
+main {
+  width: 100%;
+}
+
+main .section {
+  width: 60%;
+  margin: 50px 20%;
+}
+
+main .section h3 {font-size: 24px}
+
+main .section h3 span {
+  height: 2px;
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: 40px;
+  margin-bottom: 7px;
+  width: 30px;
+  background: #000;
+}
+
+main .section .flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .section .img-block {
+  width: 25%;
+  margin: 20px 0;
+  position: relative;
+  cursor: pointer;
+}
+
+@media (max-width: 955px) {
+  main .section .flex-container {
+    flex-direction: column;
+  }
+  main .section .img-block {width: 100%}
+}
+
+main .section .img-block img {width: 100%}
+
+main .section .img-block h4 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+main .section .img-block p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+main .section .img-block:hover .button-play {opacity: 1;}
+
+main .section .img-block .button-play {
+  background-color: #000;
+  color: yellow;
+  padding: 25px;
+  position: absolute;
+  right: -30px;
+  bottom: 80px;
+  opacity: 0;
+  border-radius: 10px;
+  transition: all .6s ease;
+  -o-transition: all .6s ease;
+  -moz-transition: all .6s ease;
+  -webkit-transition: all .6s ease;
+}
+
+Футер сайта
+
+footer {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 60px 0;
+  font-weight: 300;
+}
+
+================================================================================
+=============================Animations=========================================
+================================================================================
+
+
+.main {
+  border: 2px solid silver;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 300px;
+  height: 500px;
+  width: 900px;
+  align-items: center;
+}
+
+.main__block {
+  background: #b15d5c;
+  height: 200px;
+  width: 200px;
+}
+
+@keyframes slide {
+  from {top: 0px; left: 0px;}
+  to{top: 150px; left: 150px;}
+}
+
+.block1 {
+  align-self: flex-start;
+  background: rgb(30,87,153);
+  background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(32,124,202,1) 0%, rgba(38,126,173,1) 0%, rgba(196,51,51,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(32,124,202,1) 0%,rgba(38,126,173,1) 0%,rgba(196,51,51,1) 100%);
+  background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(32,124,202,1) 0%,rgba(38,126,173,1) 0%,rgba(196,51,51,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#c43333',GradientType=0 );
+  position: relative;
+  top: 0px;
+  left: 0px;
+  transition: top 2s, left 2s, transform 2s;
+}
+
+.block1:hover {
+  top: 150px;
+  left: 150px;
+  transform: rotate(1080deg);
+}
+
+.block4 {
+  align-self: flex-end;
+  background: rgb(255,109,109);
+  background: -moz-linear-gradient(top,  rgba(255,109,109,1) 0%, rgba(91,29,29,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(255,109,109,1) 0%,rgba(91,29,29,1) 100%);
+  background: linear-gradient(to bottom,  rgba(255,109,109,1) 0%,rgba(91,29,29,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6d6d', endColorstr='#5b1d1d',GradientType=0 );
+  transform: rotate(0deg);
+  height: 200px;
+  width: 200px;
+  transition: height 2s, width 2s, transform 2s;
+}
+
+.block4:hover {
+  height: 300px;
+  width: 300px;
+  transform: rotate(40deg);
+}
+
+.block2 {z-index: 1;}
+
+*/
